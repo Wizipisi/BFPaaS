@@ -22,6 +22,7 @@ def getminmax():
 
         element = req["geometry"]["type"]
         coordinates = req["geometry"]["coordinates"]
+        
 
         # Zwraca ciąg wraz z kodem statusu HTTP
         return "JSON received!", 200
